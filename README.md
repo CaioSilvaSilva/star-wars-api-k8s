@@ -1,6 +1,6 @@
 # Star Wars API
 
-<img src='./darth-vader.jpg' height="200">
+<img src='./stormtrooper.jpg' height="200">
 
 > API do trabalho consome o servico <https://swapi.co/>
 
