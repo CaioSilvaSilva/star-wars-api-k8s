@@ -1,0 +1,24 @@
+{
+    "name": "star-wars-api",
+    "version": "1.0.0",
+    "description": "git init",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/CaioSilvaSilva/star-wars-api-k8s.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/CaioSilvaSilva/star-wars-api-k8s/issues"
+    },
+    "homepage": "https://github.com/CaioSilvaSilva/star-wars-api-k8s#readme",
+    "dependencies": {
+      "axios": "^0.19.2",
+      "express": "^4.17.1"
+    }
+  }
