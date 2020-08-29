@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: star-wars-api
-        image: caiopolisil/star-wars-api:1.0.0
+        image: caiopolisil/star-wars-api:1.0.1
         ports:
         - containerPort: 9000
