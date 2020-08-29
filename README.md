@@ -10,6 +10,7 @@ Star-Wars-API é uma API RESTfull o qual disponibiliza dados dos filmes do Star 
 
 - Instalação
 - Modo de uso
+- Comandos Kubernetes
 
 ## Instalação
 
@@ -42,3 +43,15 @@ Após isso, o projeto estará rodando no endereço [http://localhost:9000](http:
 
 - Para listar as informações de todos os filmes, acesse: [http://localhost:9000/films](http://localhost:9000/films).
 - Para listar as informações de um filme específico, acesse informando o id do filme: [http://localhost:9000/films/1](http://localhost:9000/films/1)
+
+## Comandos Kubernetes
+
+### Comandos Kubernetes via YAML
+
+```
+kubectl apply -f star-wars-api-deployment.yaml
+```
+
+```
+kubectl apply -f star-wars-api-service.yaml
+```
